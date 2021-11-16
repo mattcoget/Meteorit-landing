@@ -40,4 +40,8 @@ The classes of meteorites have been changed to 4 main categories:
 - Unclassified Meteorite
 - Stony Iron Meteorite
 
-Each meteorit is represented by a dot on the map which color depend of the main category. When we click on a dot, a popup appears with the Name, the Date, the Mass and the class of the meteorit. 
+Each meteorit is represented by a dot on the map which color depend of the main category. When we click on a dot, a popup appears with the Name, the Date, the Mass and the class of the meteorit. The image below is just a static screenshot, but you can find the [interative map in html](/img/meteorites.html) in the folder img.
+
+<p align="center">
+<img src="img/Screenshot 2021-11-16 at 10-57-54 Screenshot.png" width="900"/>
+</p>
