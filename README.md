@@ -17,13 +17,13 @@ The dataset contains the following variables:
     - name: the name of the meteorite (typically a location, often modified with a number, year, composition, etc)
     - id: a unique identifier for the meteorite
     - nametype: one of:
-    -- valid: a typical meteorite
-    -- relict: a meteorite that has been highly degraded by weather on Earth
+        - valid: a typical meteorite
+        - relict: a meteorite that has been highly degraded by weather on Earth
     -recclass: the class of the meteorite; one of a large number of classes based on physical, chemical, and other characteristics (see the Wikipedia article on meteorite classification for a primer)
     - mass: the mass of the meteorite, in grams
     - fall: whether the meteorite was seen falling, or was discovered after its impact; one of:
-    -- Fell: the meteorite's fall was observed
-    -- Found: the meteorite's fall was not observed
+        - Fell: the meteorite's fall was observed
+        - Found: the meteorite's fall was not observed
     - year: the year the meteorite fell, or the year it was found (depending on the value of fell)
     - reclat: the latitude of the meteorite's landing
     - reclong: the longitude of the meteorite's landing
@@ -31,7 +31,13 @@ The dataset contains the following variables:
 
 
 
-
 ## Data Visualisation
 
+The datavisualisation is an interactive map done on Python with the folium library.  
+The classes of meteorites have been changed to 4 main categories:
+- Stony Meteorite
+- Iron Meteorite
+- Unclassified Meteorite
+- Stony Iron Meteorite
 
+Each meteorit is represented by a dot on the map which color depend of the main category. When we click on a dot, a popup appears with the Name, the Date, the Mass and the class of the meteorit. 
